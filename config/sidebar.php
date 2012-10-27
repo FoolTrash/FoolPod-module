@@ -9,8 +9,10 @@ return array(
 			"level" => "admin",
 			"default" => "manage",
 			"content" => array(
-				"manage" => array("alt_highlight" => array("board"),
-					"level" => "admin", "name" => __("Manage"), "icon" => 'icon-th-list'),
+				"containers" => array("level" => "admin", "name" => __("Containers"), "icon" => 'icon-th-list'),
+				"add_new_container" => array("level" => "admin", "name" => __("New container"), "icon" => 'icon-th-list'),
+				"container_types" => array("level" => "admin", "name" => __("Container types"), "icon" => 'icon-th-list'),
+				"add_new_container_type" => array("level" => "admin", "name" => __("New container type"), "icon" => 'icon-th-list'),
 			)
 		),
 
